@@ -18,6 +18,7 @@ int main(int argc, char const *argv[]) {
 
 
   cout << r2.width << endl;
-  cout << r3[1].width;
+  cout << r3[1].width << endl;
+  cout << sizeof(r3);
   return 0;
 }
